@@ -41,7 +41,7 @@ const InfoTable = () => {
 }
 
 const InfoTableWrapper = styled.div`
-    padding 90px 50px 50px 50px;
+    padding: 90px 50px 50px 50px;
     text-align: center;
     max-width: 800px;
     margin: auto;
