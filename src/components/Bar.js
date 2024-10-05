@@ -6,7 +6,7 @@ const Bar = (props) => {
         <BarWrapper onClick={props.handleClickBar} isSelected={props.isSelected}>
             <BarInfo>
                 <Percent>{props.percent}%</Percent>
-                <ItemVaue>{props.itemValue}</ItemVaue>
+                <ItemValue>{props.itemValue}</ItemValue>
                 <Count>{props.count}</Count>
             </BarInfo>
             <BarGraph width={props.percent} isSelected={props.isSelected}></BarGraph>
@@ -31,7 +31,7 @@ const Percent = styled.span`
     min-width: 70px;
     flex: 0 0 auto;
 `
-const ItemVaue = styled.span`
+const ItemValue = styled.span`
     padding-left: 60px;
     flex: 1 1 0%;
 `
